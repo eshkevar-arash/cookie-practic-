@@ -1,0 +1,51 @@
+/*=========================fonts IRANSans==================================*/
+@font-face {
+    font-family: IRANSansXFaNum-Regular;
+    font-style: normal;
+    src: url("../fonts/Woff/IRANSans/IRANSansXFaNum-Regular.woff") format('woff'),
+    url("../fonts/Woff2/IRANSans/IRANSansXFaNum-Regular.woff2")format('woff2');
+}
+@font-face {
+    font-family: IRANSansXFaNum-Medium;
+    font-style: normal;
+    src: url("../fonts/Woff/IRANSans/IRANSansXFaNum-Medium.woff") format('woff'),
+    url("../fonts/Woff2/IRANSans/IRANSansXFaNum-Medium.woff2")format('woff2');
+}
+@font-face {
+    font-family: IRANSansXFaNum-Bold;
+    font-style: normal;
+    src: url("../fonts/Woff/IRANSans/IRANSansXFaNum-Bold.woff") format('woff'),
+    url("../fonts/Woff2/IRANSans/IRANSansXFaNum-Bold.woff2")format('woff2');
+}
+/*=========================FONTS GILLORY==================================*/
+@font-face {
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    src: url("../fonts/Woff/Gillory/Gilroy-Regular.woff") format('woff')
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    font-style: normal;
+    src: url("../fonts/Woff/Gillory/Gilroy-Medium.woff") format('woff')
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    src: url("../fonts/Woff/Gillory/Gilroy-Bold.woff") format('woff')
+}
+/*=========================RELEVAY==================================*/
+@font-face {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    src: url("../fonts/Woff/Ralevay/Raleway-Regular.woff") format('woff')
+}
+@font-face {
+    font-family: Raleway-Medium;
+    font-style: normal;
+    src: url("../fonts/Woff/Ralevay/Raleway-Medium.woff") format('woff')
+}
+@font-face {
+    font-family: Raleway-Bold;
+    font-style: normal;
+    src: url("../fonts/Woff/Ralevay/Raleway-Bold.woff") format('woff')
+}
