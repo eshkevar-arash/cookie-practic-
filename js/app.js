@@ -138,6 +138,18 @@ cookieButton.addEventListener('click', () => {
 deleteCookieButton.addEventListener('click', () => {
     CookieManager.delete('username')
 })*/
+const btnGetAllCookies = document.querySelector('.btn-get-all-cookie')
+const btnSetCookie = document.querySelector('.btn-set-cookie')
+btnGetAllCookies.addEventListener('click', () => {
+    console.log(document.cookie)
+})
+btnSetCookie.addEventListener('click', () => {
+    CookieManager.delete('family')
+})
+const now = new Date()
+console.log(now)
+now.setTime(now.getTime() + (2 * 24 * 60 * 60 * 1000))
+console.log(now)
 
 
 
