@@ -128,6 +128,7 @@ const CookieManager = {
 }
 
 
+
 /*const cookieButton = document.querySelector('#cookie-btn')
 const deleteCookieButton = document.querySelector('#delete-cookie-btn')
 
@@ -144,12 +145,32 @@ btnGetAllCookies.addEventListener('click', () => {
     console.log(document.cookie)
 })
 btnSetCookie.addEventListener('click', () => {
-    CookieManager.delete('family')
+    CookieManager.set('name', 'adel', 2)
+    CookieManager.set('family', 'vakily', 2)
 })
-const now = new Date()
-console.log(now)
-now.setTime(now.getTime() + (2 * 24 * 60 * 60 * 1000))
-console.log(now)
+// const now = new Date()
+// console.log(now)
+// now.setTime(now.getTime() + (2 * 24 * 60 * 60 * 1000))
+// console.log(now)
+/*const name = 'name=arash'
+console.log(name.slice(name.indexOf('=')+1))*/
+console.log(document.cookie)
+const cookies = document.cookie.split('; ')
+console.log(cookies)
+let value
+const flag = cookies.some(cookie => {
+    if (cookie.includes('name')){
+        value = cookie.slice(cookie.indexOf('=') + 1)
+        return true
+    }
+})
+if (flag){
+    console.log(value)
+} else {
+    console.log('no')
+}
+
+
 
 
 
